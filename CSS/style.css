@@ -54,3 +54,24 @@ only screen and (max-width:1280px)
     color: aqua;
     border: aqua 2px solid;
 }
+
+#about{
+    background-image: url('../Images/pexels-soumil-kumar-keyboard.jpg');
+    background-size:cover;
+    background-position:center;
+    height: 100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+#about h1{
+    padding-top: 400px;
+}
+
+#about p{
+    width: 35ch;
+    font-size: 27px;
+}
