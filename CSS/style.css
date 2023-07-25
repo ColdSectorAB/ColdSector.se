@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color:aliceblue;
+    line-height:1.6;
+}
+
+#welcome{
+    background-image: url('../Images/pexels-mikhail-nilov-gamer.jpg');
+    background-size:cover;
+    background-position:center;
+    height: 100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:0, 20px;
+}
+
+#welcome p{
+    font-size: 18px;
+}
+
+.buttons .button{
+    font-size: 18px;
+    text-decoration:none;
+    color: aliceblue;
+    border:aliceblue 2px solid;
+    padding: 10px, 24px;
+    border-radius: 10px;
+    margin-top:20px;
+    width: 100px;
+    float: left;
+    margin-left: 15px;
+}
+
+.buttons .button:hover{
+    color: aqua;
+    border: aqua 2px solid;
+}
