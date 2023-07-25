@@ -68,10 +68,6 @@ only screen and (max-width:1280px)
     text-align:center;
 }
 
-#about h1{
-    padding-top: 400px;
-}
-
 #about p{
     width: 35ch;
     font-size: 27px;
