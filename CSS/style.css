@@ -28,6 +28,10 @@ body{
     font-size: 18px;
 }
 
+#welcome img{
+    padding: 20px;
+}
+
 .buttons .button{
     font-size: 18px;
     text-decoration:none;
