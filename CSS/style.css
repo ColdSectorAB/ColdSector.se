@@ -27,7 +27,10 @@ body{
     font-size: 18px;
 }
 
-.buttons .button{
+@media only screen and (device-width: 1280px),
+only screen and (max-width:1280px){
+    
+    .buttons .button{
     font-size: 18px;
     text-decoration:none;
     color: aliceblue;
@@ -40,6 +43,7 @@ body{
     margin-left: 20px;
     margin-right: 20px;;
     scroll-behavior: smooth;
+    }
 }
 
 @media only screen and (device-width: 1280px),
@@ -56,7 +60,10 @@ only screen and (max-width:1280px)
     border: aqua 2px solid;
 }
 
-#about{
+@media only screen and (device-width: 1280px),
+only screen and (max-width:1280px)
+{
+    #about{
     background-image: url('../Images/pexels-soumil-kumar-keyboard.jpg');
     background-size:cover;
     background-position:center;
@@ -66,6 +73,7 @@ only screen and (max-width:1280px)
     justify-content:center;
     align-items:center;
     text-align:center;
+    }
 }
 
 #about h1{
